@@ -1,0 +1,22 @@
+nav {
+    background-color: #000000;
+    border-bottom: gray;
+    div {
+        button {
+            color: white;
+            border: 1px solid gray;
+        }
+    }
+    div {
+        ul {
+            li {
+                margin: 25px 30px;
+                list-style: none;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

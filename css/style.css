@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("../../fonts/WorkSans-Light.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Work Sans";
+}
+
+nav {
+  background-color: #000000;
+  border-bottom: gray;
+}
+nav div button {
+  color: white;
+  border: 1px solid gray;
+}
+nav div ul li {
+  margin: 25px 30px;
+  list-style: none;
+}
+nav div ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  padding: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../Images/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header div {
+  display: flex;
+  align-content: center;
+}
+header div img {
+  width: 250px;
+}
+header div {
+  display: flex;
+}
+header div a {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
