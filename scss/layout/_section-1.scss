@@ -1,0 +1,14 @@
+.section-container-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #111111;
+        padding: 120px;
+        border: 1px solid gray;
+    .div-container-1 {
+            h1 {
+                color: white;
+                text-decoration: underline;
+            }
+    }
+}

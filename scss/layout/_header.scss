@@ -7,20 +7,23 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
         div{ 
             display: flex;
             align-content: center;
             img {
-                width: 250px;
+                width: 300px;
             }
         }
-        div {
+        .div-header-2 {
             display: flex;
+            border: 3px solid white;
             a {
                 text-align: center;
                 color: white;
-                font-size: 18px;
+                font-size: 20px;
                 text-decoration: none;
+                padding: 10px;
             }
         }
 }

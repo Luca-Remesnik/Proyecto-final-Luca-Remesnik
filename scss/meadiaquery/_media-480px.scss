@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+    header {
+        padding: 50px;
+        div {
+            img {
+                width: 200px;
+            }
+        }
+    }
+
+    .section-container-2 {
+        .div-container-2 {
+            .ul-container {
+                .li-item-2 {
+                    .img-item {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
