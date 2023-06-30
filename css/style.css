@@ -10,6 +10,7 @@
 
 body {
   font-family: "Work Sans";
+  background-color: #111111;
 }
 
 nav {
@@ -136,6 +137,24 @@ footer div {
   display: flex;
 }
 
+.historia {
+  background-color: #111111;
+  margin-top: 120px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.historia .div-img-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+}
+.historia .div-p-container {
+  color: white;
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   header {
     padding: 50px;
@@ -149,6 +168,15 @@ footer div {
   }
   .section-container-3 {
     padding: 50px;
+  }
+  .historia .div-img-container .img-historia {
+    width: 250px;
+    padding: 0px;
+  }
+  .historia .div-p-container p {
+    font-size: 12px;
+    margin: 0px 30px;
+    padding: 0px;
   }
 }
 @media (min-width: 481px) and (max-width: 1200px) {
