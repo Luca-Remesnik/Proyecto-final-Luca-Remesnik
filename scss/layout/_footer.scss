@@ -1,0 +1,31 @@
+footer {
+    background-color:#000000 ;
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    div {
+        ul {
+            li {
+                list-style: none;
+                a {
+                    border: 1px solid white;
+                    border-radius: 7px;
+                    padding: 10px;
+                    background-color: white;
+                    img {
+                        width: 30px;
+                        margin: 20px 5px;
+                    }
+                }
+            }
+        }
+    }
+    div {
+        display: flex;
+        
+        p {
+
+        }
+    }
+}
