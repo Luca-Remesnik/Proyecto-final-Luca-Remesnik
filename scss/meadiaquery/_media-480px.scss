@@ -27,7 +27,7 @@
     }
 
     .historia {
-
+        
         .div-img-container {
             .img-historia {
                 width: 250px;
@@ -43,6 +43,24 @@
                 margin: 0px 30px;
                 padding: 0px;
 
+            }
+        }
+    }
+
+    .actualidad-container {
+       
+        .div-actualidad-2 {
+            iframe {
+                width: 300px;
+                height: 200px;
+                box-shadow: none;
+            }
+        }
+        .div-actualidad-3 {
+            padding: 0px;
+            .img-tour {
+                width: 300px;
+                height: 200px;
             }
         }
     }

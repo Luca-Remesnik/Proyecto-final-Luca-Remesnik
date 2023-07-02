@@ -23,4 +23,44 @@
     .section-container-3 {
         padding: 100px;
     }
+
+
+    .historia {
+        .div-img-container {
+            .img-historia {
+                width: 450px;
+                padding: 0px;
+
+            }
+        }
+
+        .div-p-container {
+
+            p {
+                font-size: 12px;
+                margin: 0px 30px;
+                padding: 0px;
+
+            }
+        }
+    }
+
+
+    .actualidad-container {
+       
+        .div-actualidad-2 {
+            iframe {
+                width: 480px;
+                height: 300px;
+                box-shadow: none;
+            }
+        }
+        .div-actualidad-3 {
+            padding: 0px;
+            .img-tour {
+                width: 480px;
+                height: 300px;
+            }
+        }
+    }
 }
