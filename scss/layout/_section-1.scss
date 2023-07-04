@@ -2,9 +2,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #111111;
+        background-color: gray;
         padding: 120px;
-        border: 1px solid gray;
+        border: 1px solid black;
+        margin-top: 130px;
     .div-container-1 {
             h1 {
                 color: white;
@@ -12,3 +13,4 @@
             }
     }
 }
+

@@ -53,6 +53,7 @@ header div img {
 header .div-header-2 {
   display: flex;
   border: 3px solid white;
+  transition: 0.5s;
 }
 header .div-header-2 a {
   text-align: center;
@@ -62,13 +63,18 @@ header .div-header-2 a {
   padding: 10px;
 }
 
+.div-header-2:hover {
+  background-color: gray;
+}
+
 .section-container-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #111111;
+  background-color: gray;
   padding: 120px;
-  border: 1px solid gray;
+  border: 1px solid black;
+  margin-top: 130px;
 }
 .section-container-1 .div-container-1 h1 {
   color: white;
@@ -77,7 +83,7 @@ header .div-header-2 a {
 
 .section-container-2 {
   display: flex;
-  background-color: #000000;
+  background-color: #111111;
 }
 .section-container-2 .div-container-2 {
   display: flex;
@@ -105,6 +111,7 @@ header .div-header-2 a {
 }
 
 .section-container-3 {
+  margin-top: 20px;
   padding: 250px;
   background-image: url(../../Images/Fondo-Section-3.jpg);
   background-size: cover;
@@ -201,40 +208,12 @@ footer div {
 }
 
 .integrantes-container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 200px;
   background-color: #111111;
-  flex-wrap: wrap;
+  margin-top: 200px;
 }
-.integrantes-container div .hover-img-integrantes {
-  width: 500px;
-  margin: 0px 70px 25px 70px;
-  border: 2px solid gray;
-  transition: 1s;
-}
-.integrantes-container div h3 {
-  text-align: center;
+.integrantes-container div div p {
   color: white;
   text-decoration: underline;
-  font-style: italic;
-  margin-bottom: 80px;
-}
-.integrantes-container div p {
-  text-align: center;
-  display: flex;
-}
-
-.hover-img-integrantes {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.hover-img-integrantes:hover {
-  transform: scale(1.1);
 }
 
 @media (max-width: 480px) {
