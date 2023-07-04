@@ -1,0 +1,39 @@
+
+.integrantes-container {
+display: flex;
+justify-content: center;
+align-content: center;
+margin-top: 200px;
+background-color: #111111;
+flex-wrap: wrap;
+
+    div {
+        .hover-img-integrantes {
+            width: 500px;
+            margin: 0px 70px 25px 70px;
+            border: 2px solid gray;
+            transition: 1s;
+        }
+        h3 {
+            text-align: center;
+            color: white;
+            text-decoration: underline;
+            font-style: italic;
+            margin-bottom: 80px;
+        }
+        p {
+            text-align: center;
+            display: flex;
+        }
+    }
+}
+
+.hover-img-integrantes {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-img-integrantes:hover {
+    transform: scale(1.1); }
